@@ -58,7 +58,7 @@ title,price,mileage,location,year,trim,state,distance
 2015 Ford Fiesta SE,5950,107000,"Rochester, NY (1,428 mi.)",2015,SE,NY,1428
 2019 Ford Fiesta SE,13998,31834,"San Diego, CA (830 mi.)",2019,SE,CA,830
 2017 Ford Fiesta SE,12599,70063,"Rogers, AR (636 mi.)",2017,SE,AR,636
-2017 Ford Fiesta ST,6995,144708,"Dallas, TX (657 mi.)",2017,ST,TX,657
+2017 Ford Fiesta ST Hatch,6995,144708,"Dallas, TX (657 mi.)",2017,ST,TX,657
 2015 Ford Fiesta SE,8777,124674,"Reedley, CA (816 mi.)",2015,SE,CA,816
 2018 Ford Fiesta SE,12998,53421,"Lubbock, TX (462 mi.)",2018,SE,TX,462
 2018 Ford Fiesta SE,11195,125141,"Hialeah, FL (1,713 mi.)",2018,SE,FL,1713
@@ -124,7 +124,7 @@ title,price,mileage,location,year,trim,state,distance
 2016 Ford Fiesta ST,13980,83600,"Seattle, WA (1,024 mi.)",2016,ST,WA,1024
 2018 Ford Fiesta SE,9995,62272,"Dade City, FL (1,516 mi.)",2018,SE,FL,1516
 2014 Ford Fiesta SE,10998,46399,"Buena Park, CA (827 mi.)",2014,SE,CA,827
-2017 Ford Fiesta ST,11995,81982,"Milford, OH (1,102 mi.)",2017,ST,OH,1102
+2017 Ford Fiesta ST 4dr Hatchback,11995,81982,"Milford, OH (1,102 mi.)",2017,ST,OH,1102
 2016 Ford Fiesta Titanium,8900,81930,"Kokomo, IN (995 mi.)",2016,Titanium,IN,995
 2017 Ford Fiesta ST,8500,121936,"Indianapolis, IN (1,004 mi.)",2017,ST,IN,1004
 2011 Ford Fiesta SEL,5305,110276,"West Jordan, UT (373 mi.)",2011,SEL,UT,373
@@ -153,17 +153,17 @@ title,price,mileage,location,year,trim,state,distance
 2017 Ford Fiesta S,13998,22885,"Hoover, AL (1,097 mi.)",2017,S,AL,1097
 2019 Ford Fiesta SE,12491,20442,"Spokane, WA (821 mi.)",2019,SE,WA,821
 2018 Ford Fiesta S,9995,21000,"Staunton, VA (1,389 mi.)",2018,S,VA,1389
-2014 Ford Fiesta ST,8900,126783,"Storm Lake, IA (545 mi.)",2014,ST,IA,545
+2014 Ford Fiesta ST 4dr Hatchback,8900,126783,"Storm Lake, IA (545 mi.)",2014,ST,IA,545
 2018 Ford Fiesta SE,8270,67205,"Blackfoot, ID (451 mi.)",2018,SE,ID,451
 2017 Ford Fiesta SE,8500,70798,"Kansas City, MO (552 mi.)",2017,SE,MO,552
 2019 Ford Fiesta SE,10988,75472,"Zainesville, OH (1,214 mi.)",2019,SE,OH,1214
 2019 Ford Fiesta SE,10000,44355,"Austin, TX (767 mi.)",2019,SE,TX,767
 2016 Ford Fiesta ST,10995,99873,"South Sioux City, NE (482 mi.)",2016,ST,NE,482
 2016 Ford Fiesta SE,6995,113577,"Grand Rapids, MI (1,023 mi.)",2016,SE,MI,1023
-2019 Ford Fiesta SE,6950,96510,"Pensacola, FL (1,185 mi.)",2019,SE,FL,1185
+2019 Ford Fiesta SE 4dr Hatchback,6950,96510,"Pensacola, FL (1,185 mi.)",2019,SE,FL,1185
 2016 Ford Fiesta ST,15499,64868,"Sacramento, CA (883 mi.)",2016,ST,CA,883
 2015 Ford Fiesta ST,9490,100808,"Plano, TX (655 mi.)",2015,ST,TX,655
-2017 Ford Fiesta Titanium,7995,123724,"Baton Rouge, LA (1,015 mi.)",2017,Titanium,LA,1015
+2017 Ford Fiesta TITANIUM,7995,123724,"Baton Rouge, LA (1,015 mi.)",2017,Titanium,LA,1015
 2017 Ford Fiesta SE,7388,112740,"Milan, TN (923 mi.)",2017,SE,TN,923
 2019 Ford Fiesta SE,11577,132662,"Centralia, MO (684 mi.)",2019,SE,MO,684
 2019 Ford Fiesta S,8711,64425,"Marianna, FL (1,270 mi.)",2019,S,FL,1270
@@ -175,8 +175,8 @@ title,price,mileage,location,year,trim,state,distance
 2019 Ford Fiesta SE,8995,85609,"Ponchatoula, LA (1,041 mi.)",2019,SE,LA,1041
 2019 Ford Fiesta SE,9995,105546,"Chico, CA (895 mi.)",2019,SE,CA,895
 2015 Ford Fiesta S,4995,109850,"Burnsville, MN (688 mi.)",2015,S,MN,688
-2015 Ford Fiesta SE,6995,143069,"Muskego, WI (900 mi.)",2015,SE,WI,900
-2019 Ford Fiesta SE,8450,88611,"Columbus, GA (1,222 mi.)",2019,SE,GA,1222
+2015 Ford Fiesta SE 4dr Sedan,6995,143069,"Muskego, WI (900 mi.)",2015,SE,WI,900
+2019 Ford Fiesta SE 4dr Sedan,8450,88611,"Columbus, GA (1,222 mi.)",2019,SE,GA,1222
 2016 Ford Fiesta SE,8499,85754,"Kennedale, TX (653 mi.)",2016,SE,TX,653
 2017 Ford Fiesta SE,8395,104215,"Dagsboro, DE (1,588 mi.)",2017,SE,DE,1588
 2017 Ford Fiesta SE,6800,125620,"West Lafayette, IN (951 mi.)",2017,SE,IN,951
@@ -187,7 +187,7 @@ title,price,mileage,location,year,trim,state,distance
 2019 Ford Fiesta SE,9950,77000,"Little Rock, AR (774 mi.)",2019,SE,AR,774
 2019 Ford Fiesta SE,10995,71063,"Nanticoke, PA (1,518 mi.)",2019,SE,PA,1518
 2015 Ford Fiesta SE,6495,117195,"Highland Springs, VA (1,494 mi.)",2015,SE,VA,1494
-2014 Ford Fiesta SE,6900,130508,"Cedar Creek, TX (790 mi.)",2014,SE,TX,790
+2014 Ford Fiesta SE 4dr Sedan,6900,130508,"Cedar Creek, TX (790 mi.)",2014,SE,TX,790
 2019 Ford Fiesta S,10593,45874,"Colorado Springs, CO (65 mi.)",2019,S,CO,65
 2017 Ford Fiesta SE,6999,132878,"Nampa, ID (654 mi.)",2017,SE,ID,654
 2012 Ford Fiesta SE,5200,112620,"Martinsville, VA (1,379 mi.)",2012,SE,VA,1379
@@ -261,7 +261,7 @@ title,price,mileage,location,year,trim,state,distance
 2014 Ford Fiesta SE,5999,112614,"Woodland, CA (902 mi.)",2014,SE,CA,902
 2017 Ford Fiesta SE,6999,103213,"Kingsport, TN (1,235 mi.)",2017,SE,TN,1235
 2019 Ford Fiesta SE,7290,97646,"Lexington, SC (1,368 mi.)",2019,SE,SC,1368
-2013 Ford Fiesta SE,7999,60000,"Pittsburgh, PA (1,312 mi.)",2013,SE,PA,1312
+2013 Ford Fiesta SE 4dr Sedan,7999,60000,"Pittsburgh, PA (1,312 mi.)",2013,SE,PA,1312
 2015 Ford Fiesta SE,6777,82553,"Colorado Springs, CO (66 mi.)",2015,SE,CO,66
 2015 Ford Fiesta SE,5999,104612,"Southfield, MI (1,141 mi.)",2015,SE,MI,1141
 2019 Ford Fiesta ST Line,10977,71456,"Triangle, VA (1,477 mi.)",2019,ST Line,VA,1477
@@ -273,7 +273,7 @@ title,price,mileage,location,year,trim,state,distance
 2018 Ford Fiesta SE,6942,94789,"Chicago, IL (913 mi.)",2018,SE,IL,913
 2013 Ford Fiesta Titanium,7995,87745,"Waterloo, IA (680 mi.)",2013,Titanium,IA,680
 2016 Ford Fiesta SE,2000,172233,"Fort Lauderdale, FL (1,712 mi.)",2016,SE,FL,1712
-2018 Ford Fiesta SE,6988,101000,"Glendale, AZ (586 mi.)",2018,SE,AZ,586
+2018 Ford Fiesta SE Sedan,6988,101000,"Glendale, AZ (586 mi.)",2018,SE,AZ,586
 2018 Ford Fiesta ST,9495,133242,"Stafford, VA (1,476 mi.)",2018,ST,VA,1476
 2018 Ford Fiesta SE,7485,98985,"Belleville, IL (807 mi.)",2018,SE,IL,807
 2014 Ford Fiesta SE,8993,76372,"Cincinnati, OH (1,090 mi.)",2014,SE,OH,1090
@@ -331,7 +331,7 @@ title,price,mileage,location,year,trim,state,distance
 2016 Ford Fiesta SE,6999,79264,"Dallas, TX (654 mi.)",2016,SE,TX,654
 2014 Ford Fiesta SE,4995,132000,"Brewerton, NY (1,504 mi.)",2014,SE,NY,1504
 2016 Ford Fiesta S,5500,131191,"West Lafayette, IN (951 mi.)",2016,S,IN,951
-2019 Ford Fiesta SE,10985,47471,"Deer Park, WA (840 mi.)",2019,SE,WA,840
+2019 Ford Fiesta SE Sedan,10985,47471,"Deer Park, WA (840 mi.)",2019,SE,WA,840
 2013 Ford Fiesta SE,8488,22666,"Farmington Hills, MI (1,134 mi.)",2013,SE,MI,1134
 2018 Ford Fiesta SE,7500,95611,"West Lafayette, IN (951 mi.)",2018,SE,IN,951
 2015 Ford Fiesta SE,6499,87934,"Arlington, TX (1,489 mi.)",2015,SE,TX,1489
@@ -364,7 +364,7 @@ title,price,mileage,location,year,trim,state,distance
 2015 Ford Fiesta SE,8400,31317,"Brighton, MI (1,115 mi.)",2015,SE,MI,1115
 2012 Ford Fiesta SE,5389,123062,"Temecula, CA (801 mi.)",2012,SE,CA,801
 2017 Ford Fiesta SE,6500,108362,"Des Moines, IA (606 mi.)",2017,SE,IA,606
-2012 Ford Fiesta SE,3795,135295,"Marietta, GA (1,196 mi.)",2012,SE,GA,1196
+2012 Ford Fiesta SE 4dr Sedan,3795,135295,"Marietta, GA (1,196 mi.)",2012,SE,GA,1196
 2017 Ford Fiesta SE,6995,104718,"Des Moines, IA (606 mi.)",2017,SE,IA,606
 2017 Ford Fiesta SE,8000,79609,"Scottsburg, IN (1,027 mi.)",2017,SE,IN,1027
 2015 Ford Fiesta SE,3999,123679,"Everett, WA (1,026 mi.)",2015,SE,WA,1026
@@ -389,7 +389,7 @@ title,price,mileage,location,year,trim,state,distance
 2016 Ford Fiesta SE,7995,57301,"Des Moines, IA (606 mi.)",2016,SE,IA,606
 2019 Ford Fiesta SE,11251,37888,"Oxnard, CA (871 mi.)",2019,SE,CA,871
 2015 Ford Fiesta SE,7495,52914,"Avon, MA (1,767 mi.)",2015,SE,MA,1767
-2013 Ford Fiesta SE,3950,209211,"Kansas City, KS (542 mi.)",2013,SE,KS,542
+2013 Ford Fiesta SE 4dr Sedan,3950,209211,"Kansas City, KS (542 mi.)",2013,SE,KS,542
 2014 Ford Fiesta SE,4999,95458,"Bourbonnais, IL (904 mi.)",2014,SE,IL,904
 2017 Ford Fiesta SE,8995,62404,"Des Moines, IA (610 mi.)",2017,SE,IA,610
 2019 Ford Fiesta ST,8495,144123,"Des Moines, IA (610 mi.)",2019,ST,IA,610
@@ -417,22 +417,22 @@ title,price,mileage,location,year,trim,state,distance
 2019 Ford Fiesta SE,7995,113075,"Roy, WA (1,011 mi.)",2019,SE,WA,1011
 2013 Ford Fiesta SE,5995,132264,"Roy, WA (1,011 mi.)",2013,SE,WA,1011
 2017 Ford Fiesta S,5720,62854,"Stafford, VA (1,476 mi.)",2017,S,VA,1476
-2013 Ford Fiesta S,3950,186779,"Kansas City, KS (542 mi.)",2013,S,KS,542
+2013 Ford Fiesta S 4dr Sedan,3950,186779,"Kansas City, KS (542 mi.)",2013,S,KS,542
 2017 Ford Fiesta ST,8990,107466,"Tucson, AZ (618 mi.)",2017,ST,AZ,618
-2013 Ford Fiesta S,5000,70093,"Largo, FL (1,507 mi.)",2013,S,FL,1507
+2013 Ford Fiesta S 4dr Sedan,5000,70093,"Largo, FL (1,507 mi.)",2013,S,FL,1507
 2014 Ford Fiesta S,5999,64000,"Houston, TX (882 mi.)",2014,S,TX,882
-2015 Ford Fiesta SE,4999,136258,"Bordentown, NJ (1,596 mi.)",2015,SE,NJ,1596
+2015 Ford Fiesta SE 4dr Sedan,4999,136258,"Bordentown, NJ (1,596 mi.)",2015,SE,NJ,1596
 2019 Ford Fiesta SE,8994,42792,"Hialeah, FL (1,713 mi.)",2019,SE,FL,1713
 2017 Ford Fiesta S,7799,81592,"Lee's Summit, MO (570 mi.)",2017,S,MO,570
 2016 Ford Fiesta S,6299,121810,"Philadelphia, PA (1,571 mi.)",2016,S,PA,1571
 2016 Ford Fiesta S,8000,66377,"Houston, TX (900 mi.)",2016,S,TX,900
 2017 Ford Fiesta SE,7995,72272,"Clearwater, FL (1,505 mi.)",2017,SE,FL,1505
 2016 Ford Fiesta SE,6987,60509,"Manchester, NH (1,741 mi.)",2016,SE,NH,1741
-2014 Ford Fiesta Titanium,5988,117000,"Glendale, AZ (586 mi.)",2014,Titanium,AZ,586
+2014 Ford Fiesta Titanium Hatchback,5988,117000,"Glendale, AZ (586 mi.)",2014,Titanium,AZ,586
 2016 Ford Fiesta S,8895,66720,"Shohola, PA (1,573 mi.)",2016,S,PA,1573
 2013 Ford Fiesta SE,7777,58700,"Phoenix, AZ (576 mi.)",2013,SE,AZ,576
 2015 Ford Fiesta SE,7995,106000,"Concord, NH (1,737 mi.)",2015,SE,NH,1737
-2012 Ford Fiesta SE,3995,103020,"Phoenix, AZ (581 mi.)",2012,SE,AZ,581
+2012 Ford Fiesta 5dr HB SE,3995,103020,"Phoenix, AZ (581 mi.)",2012,SE,AZ,581
 2011 Ford Fiesta S,4999,47789,"Worcester, MA (1,730 mi.)",2011,S,MA,1730
 2019 Ford Fiesta SE,3899,133628,"Paterson, NJ (1,616 mi.)",2019,SE,NJ,1616
 2017 Ford Fiesta Titanium,6975,93345,"Monroe, NC (1,372 mi.)",2017,Titanium,NC,1372
@@ -441,7 +441,7 @@ title,price,mileage,location,year,trim,state,distance
 2011 Ford Fiesta SE,4499,155137,"Ames, IA (613 mi.)",2011,SE,IA,613
 2017 Ford Fiesta SE,5997,123373,"Tacoma, WA (1,015 mi.)",2017,SE,WA,1015
 2017 Ford Fiesta Titanium,15998,46105,"Merriam, KS (551 mi.)",2017,Titanium,KS,551
-2011 Ford Fiesta SE,1200,156544,"Pompano Beach, FL (1,706 mi.)",2011,SE,FL,1706
+2011 Ford Fiesta SE 4dr Sedan,1200,156544,"Pompano Beach, FL (1,706 mi.)",2011,SE,FL,1706
 2013 Ford Fiesta SE,5995,124000,"Concord, NH (1,737 mi.)",2013,SE,NH,1737
 2019 Ford Fiesta SE,9995,77317,"Harriman, TN (1,142 mi.)",2019,SE,TN,1142
 2013 Ford Fiesta SE,6988,47045,"Keyport, NJ (1,617 mi.)",2013,SE,NJ,1617
@@ -450,13 +450,13 @@ title,price,mileage,location,year,trim,state,distance
 2017 Ford Fiesta SE,6475,63856,"Shelby, NC (1,316 mi.)",2017,SE,NC,1316
 2015 Ford Fiesta Titanium,7995,65426,"Des Moines, IA (604 mi.)",2015,Titanium,IA,604
 2015 Ford Fiesta S,3750,169843,"Kansas City, MO (554 mi.)",2015,S,MO,554
-2019 Ford Fiesta ST,15988,55001,"St Charles, IL (885 mi.)",2019,ST,IL,885
+2019 Ford Fiesta ST 4dr Hatchback,15988,55001,"St Charles, IL (885 mi.)",2019,ST,IL,885
 2013 Ford Fiesta SE,6999,64228,"Whitman, MA (1,771 mi.)",2013,SE,MA,1771
 2017 Ford Fiesta SE,9950,34804,"Columbus, OH (1,166 mi.)",2017,SE,OH,1166
 2011 Ford Fiesta SES,8997,45984,"Minneapolis, MN (702 mi.)",2011,SES,MN,702
 2014 Ford Fiesta SE,5998,63590,"Tampa, FL (1,513 mi.)",2014,SE,FL,1513
 2015 Ford Fiesta SE,6890,96627,"Houston, TX (891 mi.)",2015,SE,TX,891
-2014 Ford Fiesta S,4995,111287,"Pasadena, TX (891 mi.)",2014,S,TX,891
+2014 Ford Fiesta S 4dr Sedan,4995,111287,"Pasadena, TX (891 mi.)",2014,S,TX,891
 2016 Ford Fiesta ST,10990,81986,"Knoxville, TN (1,173 mi.)",2016,ST,TN,1173
 2019 Ford Fiesta SE,7777,78525,"Colorado Springs, CO (66 mi.)",2019,SE,CO,66
 2013 Ford Fiesta SE,2999,80984,"Pompano Beach, FL (1,708 mi.)",2013,SE,FL,1708
@@ -514,7 +514,7 @@ title,price,mileage,location,year,trim,state,distance
 2012 Ford Fiesta SE,3500,132605,"Paris, KY (1,115 mi.)",2012,SE,KY,1115
 2013 Ford Fiesta SE,5500,66868,"Fredericksburg, VA (1,473 mi.)",2013,SE,VA,1473
 2014 Ford Fiesta SE,4969,121655,"Nashville, TN (1,021 mi.)",2014,SE,TN,1021
-2014 Ford Fiesta ST,7900,102169,"Largo, FL (1,507 mi.)",2014,ST,FL,1507
+2014 Ford Fiesta ST 4dr Hatchback,7900,102169,"Largo, FL (1,507 mi.)",2014,ST,FL,1507
 2019 Ford Fiesta S,4695,117236,"Moraine, OH (1,100 mi.)",2019,S,OH,1100
 2019 Ford Fiesta SE,10399,47348,"Grandview, MO (561 mi.)",2019,SE,MO,561
 2018 Ford Fiesta SE,7988,75442,"Lakewood, CO (6 mi.)",2018,SE,CO,6
@@ -566,7 +566,7 @@ title,price,mileage,location,year,trim,state,distance
 2013 Ford Fiesta S,5900,95493,"Montgomery, AL (1,163 mi.)",2013,S,AL,1163
 2019 Ford Fiesta SE,9598,98356,"Tryon, NC (1,282 mi.)",2019,SE,NC,1282
 2019 Ford Fiesta SE,13599,65470,"Greensboro, NC (1,388 mi.)",2019,SE,NC,1388
-2019 Ford Fiesta SE,7995,94644,"Lebanon, PA (1,501 mi.)",2019,SE,PA,1501
+2019 Ford Fiesta SE Sedan,7995,94644,"Lebanon, PA (1,501 mi.)",2019,SE,PA,1501
 2018 Ford Fiesta SE,6799,75053,"Naples, FL (1,630 mi.)",2018,SE,FL,1630
 2016 Ford Fiesta ST,15998,40907,"Littleton, CO (11 mi.)",2016,ST,CO,11
 2015 Ford Fiesta SE,9798,73124,"Centennial, CO (13 mi.)",2015,SE,CO,13
@@ -593,7 +593,8 @@ title,price,mileage,location,year,trim,state,distance
 2015 Ford Fiesta S,7498,87622,"Arlington, TX (652 mi.)",2015,S,TX,652
 2017 Ford Fiesta ST,9999,49929,"Apple Valley, MN (692 mi.)",2017,ST,MN,692
 2016 Ford Fiesta S,7900,101913,"Lockridge, IA (701 mi.)",2016,S,IA,701
-2012 Ford Fiesta SE,4995,81504,"Lino Lakes, MN (708 mi.)",2012,SE,MN,708
+2014 Ford Fiesta SE,5997,0,"Minneapolis, MN (702 mi.)",2014,SE,MN,702
+2012 Ford Fiesta 4dr Sdn SE,4995,81504,"Lino Lakes, MN (708 mi.)",2012,SE,MN,708
 2017 Ford Fiesta SE,9950,39983,"Rolla, MO (720 mi.)",2017,SE,MO,720
 2015 Ford Fiesta SE,3995,173090,"Somerton, AZ (736 mi.)",2015,SE,AZ,736
 2017 Ford Fiesta ST,9999,81634,"Eau Claire, WI (772 mi.)",2017,ST,WI,772
@@ -608,7 +609,7 @@ title,price,mileage,location,year,trim,state,distance
 2019 Ford Fiesta S,8995,17406,"Roseville, CA (876 mi.)",2019,S,CA,876
 2017 Ford Fiesta SE,9495,52990,"Naperville, IL (888 mi.)",2017,SE,IL,888
 2015 Ford Fiesta SE,7991,66867,"Romeoville, IL (891 mi.)",2015,SE,IL,891
-2016 Ford Fiesta SE,3995,141394,"Pasadena, TX (891 mi.)",2016,SE,TX,891
+2016 Ford Fiesta SE 4dr Sedan,3995,141394,"Pasadena, TX (891 mi.)",2016,SE,TX,891
 2019 Ford Fiesta SE,7995,51063,"Roselle, IL (892 mi.)",2019,SE,IL,892
 2014 Ford Fiesta SE,7732,69809,"Downers Grove, IL (896 mi.)",2014,SE,IL,896
 2019 Ford Fiesta SE,8550,67723,"Addison, IL (898 mi.)",2019,SE,IL,898
@@ -631,7 +632,7 @@ title,price,mileage,location,year,trim,state,distance
 2017 Ford Fiesta SE,7997,61129,"Livonia, MI (1,137 mi.)",2017,SE,MI,1137
 2015 Ford Fiesta ST,11199,97857,"Shelby Township, MI (1,156 mi.)",2015,ST,MI,1156
 2018 Ford Fiesta SE,9549,85358,"Shelby Township, MI (1,156 mi.)",2018,SE,MI,1156
-2017 Ford Fiesta SE,6950,57748,"Columbus, OH (1,162 mi.)",2017,SE,OH,1162
+2017 Ford Fiesta SE 4dr Hatchback,6950,57748,"Columbus, OH (1,162 mi.)",2017,SE,OH,1162
 2018 Ford Fiesta SE,8998,69789,"Montgomery, AL (1,163 mi.)",2018,SE,AL,1163
 2014 Ford Fiesta SE,3995,137208,"Mansfield, OH (1,181 mi.)",2014,SE,OH,1181
 2015 Ford Fiesta S,7999,48988,"Pensacola, FL (1,185 mi.)",2015,S,FL,1185
@@ -640,14 +641,14 @@ title,price,mileage,location,year,trim,state,distance
 2019 Ford Fiesta SE,5999,87779,"Wickliffe, OH (1,235 mi.)",2019,SE,OH,1235
 2019 Ford Fiesta SE,9990,64201,"Gaffney, SC (1,314 mi.)",2019,SE,SC,1314
 2017 Ford Fiesta SE,7741,71439,"Bethel Park, PA (1,316 mi.)",2017,SE,PA,1316
-2014 Ford Fiesta SE,7957,95937,"Murrysville, PA (1,332 mi.)",2014,SE,PA,1332
+2014 Ford Fiesta SE Hatchback,7957,95937,"Murrysville, PA (1,332 mi.)",2014,SE,PA,1332
 2014 Ford Fiesta SE,8949,134983,"Christiansburg, VA (1,340 mi.)",2014,SE,VA,1340
 2017 Ford Fiesta SE,6695,58354,"Belmont, NC (1,343 mi.)",2017,SE,NC,1343
 2018 Ford Fiesta S,5700,41000,"Mt Pleasant, PA (1,345 mi.)",2018,S,PA,1345
-2014 Ford Fiesta SE,3995,41913,"Bedford, VA (1,376 mi.)",2014,SE,VA,1376
+2014 Ford Fiesta SE Sedan,3995,41913,"Bedford, VA (1,376 mi.)",2014,SE,VA,1376
 2018 Ford Fiesta S,2995,89506,"Bedford, VA (1,376 mi.)",2018,S,VA,1376
 2015 Ford Fiesta SE,6273,101721,"Front Royal, VA (1,427 mi.)",2015,SE,VA,1427
-2012 Ford Fiesta SES,5950,107159,"Fayetteville, NC (1,459 mi.)",2012,SES,NC,1459
+2012 Ford Fiesta SES 4dr Hatchback,5950,107159,"Fayetteville, NC (1,459 mi.)",2012,SES,NC,1459
 2019 Ford Fiesta SE,11988,70498,"Raleigh, NC (1,460 mi.)",2019,SE,NC,1460
 2015 Ford Fiesta S,4990,79142,"Stafford, VA (1,472 mi.)",2015,S,VA,1472
 2018 Ford Fiesta ST,13995,63245,"Jacksonville, FL (1,473 mi.)",2018,ST,FL,1473
@@ -657,13 +658,14 @@ title,price,mileage,location,year,trim,state,distance
 2017 Ford Fiesta S,7264,70520,"Gaithersburg, MD (1,478 mi.)",2017,S,MD,1478
 2017 Ford Fiesta Titanium,10000,62535,"Springfield, VA (1,482 mi.)",2017,Titanium,VA,1482
 2014 Ford Fiesta SE,4900,107970,"Princeton, NC (1,492 mi.)",2014,SE,NC,1492
+2016 Ford Fiesta S,499,129810,"New Port Richey, FL (1,496 mi.)",2016,S,FL,1496
 2016 Ford Fiesta SE,4999,120041,"New Port Richey, FL (1,496 mi.)",2016,SE,FL,1496
 2012 Ford Fiesta SE,3500,87591,"Essex, MD (1,513 mi.)",2012,SE,MD,1513
 2017 Ford Fiesta ST,11998,80268,"Fallston, MD (1,515 mi.)",2017,ST,MD,1515
 2017 Ford Fiesta SE,6033,95176,"Sarasota, FL (1,550 mi.)",2017,SE,FL,1550
 2019 Ford Fiesta SE,3500,85376,"Orlando, FL (1,550 mi.)",2019,SE,FL,1550
 2014 Ford Fiesta ST,9995,96585,"Orlando, FL (1,551 mi.)",2014,ST,FL,1551
-2011 Ford Fiesta SE,5995,86972,"Moyock, NC (1,574 mi.)",2011,SE,NC,1574
+2011 Ford Fiesta SE Hatchback,5995,86972,"Moyock, NC (1,574 mi.)",2011,SE,NC,1574
 2018 Ford Fiesta SE,12985,45412,"Melbourne, FL (1,596 mi.)",2018,SE,FL,1596
 2011 Ford Fiesta SE,4455,141049,"Union, NJ (1,611 mi.)",2011,SE,NJ,1611
 2019 Ford Fiesta SE,15998,3704,"Smithtown, NY (1,668 mi.)",2019,SE,NY,1668

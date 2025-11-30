@@ -3,6 +3,7 @@ Feature extraction script for Ford Fiesta listings.
 
 This script processes cleaned Ford Fiesta data to extract structured features
 including year, trim level, numeric price and mileage, state, and distance.
+Now includes one-hot encoding functionality for state and trim variables.
 
 Author: Jeffery Lane
 Date: November 2025
@@ -108,13 +109,89 @@ def extract_distance(location_series):
     return distance
 
 
-def process_ford_fiesta_data(input_file, output_file):
+def one_hot_encode_column(df, column_name, prefix=None, drop_original=False):
+    """
+    Perform one-hot encoding on a specified column.
+
+    Creates binary columns for each unique value in the specified column
+    (e.g., state_CA, state_TX or trim_SE, trim_ST, etc.)
+    where 1 indicates the value matches and 0 otherwise.
+
+    Args:
+        df (pd.DataFrame): Input dataframe containing the column to encode
+        column_name (str): Name of the column to encode
+        prefix (str): Prefix for the new columns (default: column_name)
+        drop_original (bool): Whether to drop the original column
+
+    Returns:
+        pd.DataFrame: Dataframe with one-hot encoded columns
+    """
+    # Use column name as prefix if not specified
+    if prefix is None:
+        prefix = column_name
+
+    # Create one-hot encoded columns with specified prefix
+    dummies = pd.get_dummies(df[column_name], prefix=prefix)
+
+    # Concatenate with original dataframe
+    df_encoded = pd.concat([df, dummies], axis=1)
+
+    # Optionally drop the original column
+    if drop_original:
+        df_encoded = df_encoded.drop(columns=[column_name])
+
+    return df_encoded
+
+
+def one_hot_encode_states(df, state_column='state', drop_original=False):
+    """
+    Perform one-hot encoding on state column.
+
+    Creates binary columns for each state (e.g., state_CA, state_TX, etc.)
+    where 1 indicates the car is from that state and 0 otherwise.
+
+    Args:
+        df (pd.DataFrame): Input dataframe containing state column
+        state_column (str): Name of the state column to encode
+        drop_original (bool): Whether to drop the original state column
+
+    Returns:
+        pd.DataFrame: Dataframe with one-hot encoded state columns
+    """
+    return one_hot_encode_column(df, state_column, prefix='state',
+                                 drop_original=drop_original)
+
+
+def one_hot_encode_trim(df, trim_column='trim', drop_original=False):
+    """
+    Perform one-hot encoding on trim column.
+
+    Creates binary columns for each trim level (e.g., trim_S, trim_SE, etc.)
+    where 1 indicates the car has that trim and 0 otherwise.
+
+    Args:
+        df (pd.DataFrame): Input dataframe containing trim column
+        trim_column (str): Name of the trim column to encode
+        drop_original (bool): Whether to drop the original trim column
+
+    Returns:
+        pd.DataFrame: Dataframe with one-hot encoded trim columns
+    """
+    return one_hot_encode_column(df, trim_column, prefix='trim',
+                                 drop_original=drop_original)
+
+
+def process_ford_fiesta_data(input_file, output_file,
+                             encode_state=True,
+                             encode_trim=True):
     """
     Process Ford Fiesta data to extract all features.
 
     Args:
         input_file (str): Path to the cleaned input CSV file
         output_file (str): Path to save the processed CSV file
+        encode_state (bool): Whether to one-hot encode state column
+        encode_trim (bool): Whether to one-hot encode trim column
 
     Returns:
         pd.DataFrame: Processed dataframe with extracted features
@@ -133,6 +210,21 @@ def process_ford_fiesta_data(input_file, output_file):
     df['state'] = extract_state(df['location'])
     df['distance'] = extract_distance(df['location'])
 
+    # Apply one-hot encoding if requested
+    if encode_state:
+        print("Applying one-hot encoding to state column...")
+        df = one_hot_encode_states(df, state_column='state',
+                                   drop_original=False)
+        num_state_cols = df.filter(like='state_').shape[1]
+        print(f"✅ Added {num_state_cols} one-hot encoded state columns")
+
+    if encode_trim:
+        print("Applying one-hot encoding to trim column...")
+        df = one_hot_encode_trim(df, trim_column='trim',
+                                 drop_original=False)
+        num_trim_cols = df.filter(like='trim_').shape[1]
+        print(f"✅ Added {num_trim_cols} one-hot encoded trim columns")
+
     # Save processed data
     df.to_csv(output_file, index=False)
     print(f"✅ Processed data saved to {output_file}")
@@ -143,7 +235,7 @@ def process_ford_fiesta_data(input_file, output_file):
 def main():
     """Main function to execute the feature extraction process."""
     input_file = 'ford_fiestas_clean.csv'
-    output_file = 'ford_fiestas_extrap.csv'
+    output_file = 'ford_fiestas_extrap_one_hot.csv'
 
     # Process the data
     df = process_ford_fiesta_data(input_file, output_file)
